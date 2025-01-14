@@ -25,17 +25,7 @@ int main(void)
     }
     else
     {
-        for (int i = 0; i < c - 1; i++) {
-            int temp;
-            for (int j = 0; j < c - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                }
-            }
-        }
-
+        
 
         printf("%d", arr[index - 1]);
     }
