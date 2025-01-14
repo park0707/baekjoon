@@ -39,7 +39,7 @@ int main(void)
 
         printf("%d", arr[index - 1]);
     }
-    
+    free(arr);
   
     return 0;
 }
