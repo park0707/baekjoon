@@ -55,6 +55,6 @@ int main(void)
         else
             printf("neither\n");
     }
-  
+    free(arr);
     return 0;
 }
