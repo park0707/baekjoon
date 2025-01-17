@@ -50,7 +50,7 @@ int main(void)
             printf("Invalid\n");
     }
     
-    
+    free(list);
     
     
     
