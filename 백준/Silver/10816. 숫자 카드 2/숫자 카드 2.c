@@ -103,6 +103,7 @@ int main(void)
     {
         printf("%d ", hashget(arr[i], map));
     }
+    freehash(map);
     free(arr);
     return 0;
 }
