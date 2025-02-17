@@ -43,7 +43,7 @@ int main(void)
 	{
 
 		node* stack = NULL;
-		fgets(s, 105, stdin);
+		fgets(s, 102, stdin);
 		if (s[0]=='.')
 			break;
 		int len = strlen(s);
